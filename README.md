@@ -1,2 +1,1 @@
 # leetcode
-Author: Yizhen Zhu
