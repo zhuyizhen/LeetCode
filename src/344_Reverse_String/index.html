@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js" type="text/javascript"></script>
+    <title>344. Reverse String</title>
+  </head>
+  <body>
+    <input type='text' id="inputStr"></input>
+	<input type='button' value='È·¶¨'></input>
+	<div id="result"></div>
+
+    <script type="text/javascript">
+		$(document).ready(function () {
+			var reverseString = function (s) {
+				return s.split("").reverse().join("");
+			};
+			$(':button').on('click', function () {
+				$('#result').html(reverseString($("#inputStr").val()));
+			})
+		});
+    </script>
+  </body>
+</html>
